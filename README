@@ -1,0 +1,32 @@
+========================================================
+				A simple Flixel template
+========================================================
+
+Created using Flash Develop on Windows.
+Requires downloading flixel and adding the src folder
+to the classpath of the project.
+Based (heavily) on Photonstorm's Flashdevelop tutorial
+-----
+Will update ASAP for it to be ready for the LD 23.
+(April 21 2012)
+-----
+Version 0.0.0.0.0.0.1
+
+Main class :
+	Manages the Preloader and creates a new instance of
+	TemplateGame
+	
+TemplateGame class :
+	Entry point of the game, where we define the SWF's
+	property and create a new instance of the game,
+	starting with the MenuState
+	
+MenuState class :
+	The game's menu, where we have the game's title
+	and a start button.
+	The start button will trigger a state change to
+	start the game state.
+	
+PlayState class :
+	The actual game class, where we'll load assets,
+	manage the player's input and so on~
