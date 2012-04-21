@@ -5,12 +5,14 @@
 Created using Flash Develop on Windows.
 Requires downloading flixel and adding the src folder
 to the classpath of the project.
-Based (heavily) on Photonstorm's Flashdevelop tutorial
+Based (heavily) on Photonstorm's Flashdevelop tutorial.
+Using DAME editor to generate the CSV (*url*)
+And Paint.NET to create the sprites.
 -----
 Will update ASAP for it to be ready for the LD 23.
 (April 21 2012)
 -----
-Version 0.0.0.0.0.0.1
+Version 0.0.0.0.0.0.2
 
 Main class :
 	Manages the Preloader and creates a new instance of
@@ -30,3 +32,14 @@ MenuState class :
 PlayState class :
 	The actual game class, where we'll load assets,
 	manage the player's input and so on~
+	Added loading of the tilemap and the csv containing
+	which tiles goes where.
+	Loads the map and shows it, with the collision 
+	detection in the update function.
+	
+Player class :
+	Extension of the FlxSprite.
+	Dummy graphics for now (I can't make a pixel 
+	character D: )
+	Will have a embedded graphic data, with character 
+	animations.
